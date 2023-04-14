@@ -3,7 +3,7 @@
         'name' => 'laravel/laravel',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => '3c721866fe473da214ec223473797d934408dd8d',
+        'reference' => '965b2303936418e7bbe7a28e3a16bc4c1b92df2a',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -355,6 +355,15 @@
                 0 => 'v10.7.1',
             ),
         ),
+        'kavist/rajaongkir' => array(
+            'pretty_version' => 'v1.1.0',
+            'version' => '1.1.0.0',
+            'reference' => 'c1ab72000d05b1cb6b0a1a1364d6200b78976377',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../kavist/rajaongkir',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'kodova/hamcrest-php' => array(
             'dev_requirement' => true,
             'replaced' => array(
@@ -373,7 +382,7 @@
         'laravel/laravel' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => '3c721866fe473da214ec223473797d934408dd8d',
+            'reference' => '965b2303936418e7bbe7a28e3a16bc4c1b92df2a',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

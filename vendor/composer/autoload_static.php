@@ -123,6 +123,10 @@ class ComposerStaticInit42b0187154085785fec10bc17f4a9e1b
             'Laravel\\Sanctum\\' => 16,
             'Laravel\\Sail\\' => 13,
         ),
+        'K' => 
+        array (
+            'Kavist\\RajaOngkir\\' => 18,
+        ),
         'I' => 
         array (
             'Illuminate\\Support\\' => 19,
@@ -408,6 +412,10 @@ class ComposerStaticInit42b0187154085785fec10bc17f4a9e1b
         'Laravel\\Sail\\' => 
         array (
             0 => __DIR__ . '/..' . '/laravel/sail/src',
+        ),
+        'Kavist\\RajaOngkir\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kavist/rajaongkir/src',
         ),
         'Illuminate\\Support\\' => 
         array (
@@ -2725,6 +2733,24 @@ class ComposerStaticInit42b0187154085785fec10bc17f4a9e1b
         'Illuminate\\View\\ViewFinderInterface' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/ViewFinderInterface.php',
         'Illuminate\\View\\ViewName' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/ViewName.php',
         'Illuminate\\View\\ViewServiceProvider' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/ViewServiceProvider.php',
+        'Kavist\\RajaOngkir\\Contracts\\HttpClientContract' => __DIR__ . '/..' . '/kavist/rajaongkir/src/Contracts/HttpClientContract.php',
+        'Kavist\\RajaOngkir\\Contracts\\LocationResourceContract' => __DIR__ . '/..' . '/kavist/rajaongkir/src/Contracts/LocationResourceContract.php',
+        'Kavist\\RajaOngkir\\Contracts\\SearchDriverContract' => __DIR__ . '/..' . '/kavist/rajaongkir/src/Contracts/SearchDriverContract.php',
+        'Kavist\\RajaOngkir\\Exceptions\\ApiResponseException' => __DIR__ . '/..' . '/kavist/rajaongkir/src/Exceptions/ApiResponseException.php',
+        'Kavist\\RajaOngkir\\Exceptions\\BasicHttpClientException' => __DIR__ . '/..' . '/kavist/rajaongkir/src/Exceptions/BasicHttpClientException.php',
+        'Kavist\\RajaOngkir\\Exceptions\\InvalidConfigurationException' => __DIR__ . '/..' . '/kavist/rajaongkir/src/Exceptions/InvalidConfigurationException.php',
+        'Kavist\\RajaOngkir\\Facades\\RajaOngkir' => __DIR__ . '/..' . '/kavist/rajaongkir/src/Facades/RajaOngkir.php',
+        'Kavist\\RajaOngkir\\HttpClients\\AbstractClient' => __DIR__ . '/..' . '/kavist/rajaongkir/src/HttpClients/AbstractClient.php',
+        'Kavist\\RajaOngkir\\HttpClients\\BasicClient' => __DIR__ . '/..' . '/kavist/rajaongkir/src/HttpClients/BasicClient.php',
+        'Kavist\\RajaOngkir\\Providers\\LaravelServiceProvider' => __DIR__ . '/..' . '/kavist/rajaongkir/src/Providers/LaravelServiceProvider.php',
+        'Kavist\\RajaOngkir\\RajaOngkir' => __DIR__ . '/..' . '/kavist/rajaongkir/src/RajaOngkir.php',
+        'Kavist\\RajaOngkir\\Resources\\AbstractLocation' => __DIR__ . '/..' . '/kavist/rajaongkir/src/Resources/AbstractLocation.php',
+        'Kavist\\RajaOngkir\\Resources\\AbstractResource' => __DIR__ . '/..' . '/kavist/rajaongkir/src/Resources/AbstractResource.php',
+        'Kavist\\RajaOngkir\\Resources\\Kota' => __DIR__ . '/..' . '/kavist/rajaongkir/src/Resources/Kota.php',
+        'Kavist\\RajaOngkir\\Resources\\OngkosKirim' => __DIR__ . '/..' . '/kavist/rajaongkir/src/Resources/OngkosKirim.php',
+        'Kavist\\RajaOngkir\\Resources\\Provinsi' => __DIR__ . '/..' . '/kavist/rajaongkir/src/Resources/Provinsi.php',
+        'Kavist\\RajaOngkir\\SearchDrivers\\AbstractDriver' => __DIR__ . '/..' . '/kavist/rajaongkir/src/SearchDrivers/AbstractDriver.php',
+        'Kavist\\RajaOngkir\\SearchDrivers\\BasicDriver' => __DIR__ . '/..' . '/kavist/rajaongkir/src/SearchDrivers/BasicDriver.php',
         'Laravel\\Sail\\Console\\AddCommand' => __DIR__ . '/..' . '/laravel/sail/src/Console/AddCommand.php',
         'Laravel\\Sail\\Console\\Concerns\\InteractsWithDockerComposeServices' => __DIR__ . '/..' . '/laravel/sail/src/Console/Concerns/InteractsWithDockerComposeServices.php',
         'Laravel\\Sail\\Console\\InstallCommand' => __DIR__ . '/..' . '/laravel/sail/src/Console/InstallCommand.php',
